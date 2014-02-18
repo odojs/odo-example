@@ -1,0 +1,14 @@
+{
+	"ignore": [
+    ".git",
+		"public/*",
+		"views/*",
+		"widgets/*",
+		"bower_components/*",
+		"*-public/*"
+	],
+  "watch": [
+  	"*.js",
+  	"*.json"
+  ]
+}

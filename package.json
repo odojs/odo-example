@@ -1,0 +1,27 @@
+{
+	"name": "odo-example",
+	"description": "A starting point for an Odo application",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies": {
+		"express": "3.*",
+		"requirejs": "*",
+		
+		"redis": "*",
+		"eventstore": "*",
+		"eventstore.redis": "*",
+		
+		"node-uuid": "*",
+		"q": "*",
+		
+		"async": "*",
+		
+		"odo": "*"
+	},
+	"repository":
+	{
+		"type": "git",
+		"url": "http://github.com/tcoats/odo-example.git"
+	},
+	"readmeFilename": "README.md"
+}
