@@ -1,23 +1,20 @@
 # Odo example
-
 An example application written with [Odo](https://github.com/tcoats/odo)
 
-# Setup
-
+## Setup
 ```
 bower install
 npm install
-cp config.sample.json config.json
 ```
 
-This will install all bower packages and npm packages and create a `config.json` file from the sample.
+This will install all bower packages and npm packages.
 
-# Run
+## Run
 ```
-./redis-server
-nodemon run.website.js
-nodemon run.projections.js
-nodemon run.domain.js
+. ./environment.sh
+nodemon bootstrap.js web
 ```
 
-This will run redis, the website service, the domain service and the projections service. Don't worry - you don't have to use these services exactly as set in the example, complete control is possible.
+This will load up the example configuration then run the project's web components.
+
+Go to http://localhost:1234/ in your browser to view the example.

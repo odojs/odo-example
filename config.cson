@@ -1,0 +1,10 @@
+systems: [
+	'odo/bower'
+	'odo/durandal'
+	'odo/public'
+	'local/welcome/plugin'
+	'odo/express'
+]
+
+odo:
+	domain: 'odo-example'

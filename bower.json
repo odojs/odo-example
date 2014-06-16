@@ -1,32 +1,30 @@
 {
-	"name": "odo-example",
-	"description": "A starting point for an Odo application",
-	"version": "0.0.1",
-	"private": true,
-	"dependencies": {
-		"jquery": "2.*",
-		"durandal": "2.*",
-		"knockout.js": "*",
-		"ko-validation": "*",
-		"requirejs": "2.*",
-		"requirejs-text": "2.*",
-		"require-css": "*",
-		"injectinto": "*",
-		
-		"node-uuid": "*",
-		"q": "*",
-		
-		"bootstrap": "3.*",
-		"font-awesome": "*",
-		"animate.css": "2.*",
-		"mousetrap": "*"
-	},
-	"ignore": [
-		"node_modules/",
-		"config.json",
-		"bower_components"
-	],
-	"resolutions": {
-		"jquery": "2.*"
-	}
+  "name": "odo-example",
+  "description": "A starting point for an Odo application",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "jquery": "2.*",
+    "durandal": "*",
+    "knockout.js": "*",
+    "ko-validation": "*",
+    "requirejs": "*",
+    "requirejs-text": "*",
+    "require-css": "*",
+    "injectinto": "*",
+    "node-uuid": "*",
+    "q": "1.*",
+    "bootstrap": "*",
+    "font-awesome": "*",
+    "animate.css": "*",
+    "mousetrap": "*"
+  },
+  "ignore": [
+    "node_modules/",
+    "config.json",
+    "bower_components"
+  ],
+  "resolutions": {
+    "jquery": "2.*"
+  }
 }
