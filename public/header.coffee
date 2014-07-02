@@ -1,2 +1,2 @@
-defineQ ['knockout'], (ko) ->
+define ['knockout'], (ko) ->
 	class Header
